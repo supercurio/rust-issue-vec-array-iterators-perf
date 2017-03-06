@@ -1,0 +1,65 @@
+Nexus 9 armv7
+
+Vector of borrowed mutable binding size
+        iir_intoiterator_shared                 6.702 ns        3109x realtime
+        iir_intoiterator_uniq_1                 6.554 ns        3179x realtime
+        iir_intoiterator_enforced_len           6.292 ns        3311x realtime
+        iir_c_style_for_loop                    6.291 ns        3311x realtime
+        iir_unchecked_c_style_for_loop          6.383 ns        3264x realtime
+
+Vector of borrowed immutable binding size
+        iir_intoiterator_shared                 6.278 ns        3319x realtime
+        iir_intoiterator_uniq_2                 6.287 ns        3314x realtime
+        iir_intoiterator_enforced_len           6.294 ns        3310x realtime
+        iir_c_style_for_loop                    6.287 ns        3313x realtime
+        iir_unchecked_c_style_for_loop          6.278 ns        3318x realtime
+
+Vector of mutable binding size
+        iir_intoiterator_shared                 6.279 ns        3318x realtime
+        iir_intoiterator_uniq_3                 6.286 ns        3314x realtime
+        iir_intoiterator_enforced_len           6.324 ns        3294x realtime
+        iir_c_style_for_loop                    6.326 ns        3293x realtime
+        iir_unchecked_c_style_for_loop          6.431 ns        3240x realtime
+
+Vector of immutable binding size
+        iir_intoiterator_shared                 6.261 ns        3327x realtime
+        iir_intoiterator_uniq_4                 6.301 ns        3307x realtime
+        iir_intoiterator_enforced_len           6.225 ns        3347x realtime
+        iir_c_style_for_loop                    6.272 ns        3321x realtime
+        iir_unchecked_c_style_for_loop          6.323 ns        3295x realtime
+
+Vector of const size
+        iir_intoiterator_shared                 6.336 ns        3288x realtime
+        iir_intoiterator_uniq_5                 6.278 ns        3318x realtime
+        iir_intoiterator_enforced_len           6.256 ns        3330x realtime
+        iir_c_style_for_loop                    7.783 ns        2677x realtime
+        iir_unchecked_c_style_for_loop          6.502 ns        3204x realtime
+
+Slice of mutable size from Array (4096)
+        iir_intoiterator_shared                 6.351 ns        3280x realtime
+        iir_intoiterator_uniq_6                 6.896 ns        3021x realtime
+        iir_intoiterator_enforced_len           6.308 ns        3303x realtime
+        iir_c_style_for_loop                    6.303 ns        3306x realtime
+        iir_unchecked_c_style_for_loop          6.393 ns        3259x realtime
+
+Slice of immutable size from Array (4096)
+        iir_intoiterator_shared                 6.292 ns        3311x realtime
+        iir_intoiterator_uniq_7                 6.399 ns        3256x realtime
+        iir_intoiterator_enforced_len           6.316 ns        3299x realtime
+        iir_c_style_for_loop                    6.314 ns        3299x realtime
+        iir_unchecked_c_style_for_loop          6.285 ns        3315x realtime
+
+Slice of const size from Array (4096)
+        iir_intoiterator_shared                 6.289 ns        3313x realtime
+        iir_intoiterator_uniq_8                 6.270 ns        3323x realtime
+        iir_intoiterator_enforced_len           6.300 ns        3307x realtime
+        iir_c_style_for_loop                    6.320 ns        3297x realtime
+        iir_unchecked_c_style_for_loop          6.311 ns        3301x realtime
+
+Array (128)
+        iir_intoiterator_shared                 6.272 ns        3322x realtime
+        iir_intoiterator_uniq_9                 6.340 ns        3286x realtime
+        iir_intoiterator_enforced_len           6.443 ns        3233x realtime
+        iir_c_style_for_loop                    6.278 ns        3318x realtime
+        iir_unchecked_c_style_for_loop_shared   6.272 ns        3322x realtime
+        iir_array_c_style_for_loop              6.343 ns        3284x realtime

@@ -1,0 +1,8 @@
+[package]
+name = "vec-array-iterators-perf"
+version = "0.1.0"
+authors = ["supercurio"]
+
+
+[dependencies]
+time = "*"

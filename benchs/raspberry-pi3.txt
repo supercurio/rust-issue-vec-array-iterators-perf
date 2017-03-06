@@ -1,0 +1,66 @@
+Raspberry Pi 3
+
+Vector of borrowed mutable binding size
+        iir_intoiterator_shared                 30.589 ns       681x realtime
+        iir_intoiterator_uniq_1                 30.594 ns       681x realtime
+        iir_intoiterator_enforced_len           21.044 ns       990x realtime
+        iir_c_style_for_loop                    20.224 ns       1030x realtime
+        iir_unchecked_c_style_for_loop          20.223 ns       1030x realtime
+
+Vector of borrowed immutable binding size
+        iir_intoiterator_shared                 30.594 ns       681x realtime
+        iir_intoiterator_uniq_2                 30.590 ns       681x realtime
+        iir_intoiterator_enforced_len           21.036 ns       990x realtime
+        iir_c_style_for_loop                    20.221 ns       1030x realtime
+        iir_unchecked_c_style_for_loop          20.220 ns       1030x realtime
+
+Vector of mutable binding size
+        iir_intoiterator_shared                 30.589 ns       681x realtime
+        iir_intoiterator_uniq_3                 30.587 ns       681x realtime
+        iir_intoiterator_enforced_len           21.043 ns       990x realtime
+        iir_c_style_for_loop                    20.220 ns       1030x realtime
+        iir_unchecked_c_style_for_loop          20.223 ns       1030x realtime
+
+Vector of immutable binding size
+        iir_intoiterator_shared                 30.593 ns       681x realtime
+        iir_intoiterator_uniq_4                 30.588 ns       681x realtime
+        iir_intoiterator_enforced_len           21.043 ns       990x realtime
+        iir_c_style_for_loop                    20.220 ns       1030x realtime
+        iir_unchecked_c_style_for_loop          20.223 ns       1030x realtime
+
+Vector of const size
+        iir_intoiterator_shared                 25.181 ns       827x realtime
+        iir_intoiterator_uniq_5                 25.180 ns       827x realtime
+        iir_intoiterator_enforced_len           21.043 ns       990x realtime
+        iir_c_style_for_loop                    21.043 ns       990x realtime
+        iir_unchecked_c_style_for_loop          21.043 ns       990x realtime
+
+Slice of mutable size from Array (4096)
+        iir_intoiterator_shared                 24.347 ns       856x realtime
+        iir_intoiterator_uniq_6                 24.348 ns       856x realtime
+        iir_intoiterator_enforced_len           21.045 ns       990x realtime
+        iir_c_style_for_loop                    20.237 ns       1029x realtime
+        iir_unchecked_c_style_for_loop          20.238 ns       1029x realtime
+
+Slice of immutable size from Array (4096)
+        iir_intoiterator_shared                 24.347 ns       856x realtime
+        iir_intoiterator_uniq_7                 24.347 ns       856x realtime
+        iir_intoiterator_enforced_len           21.042 ns       990x realtime
+        iir_c_style_for_loop                    20.222 ns       1030x realtime
+        iir_unchecked_c_style_for_loop          20.222 ns       1030x realtime
+
+Slice of const size from Array (4096)
+        iir_intoiterator_shared                 25.180 ns       827x realtime
+        iir_intoiterator_uniq_8                 25.187 ns       827x realtime
+        iir_intoiterator_enforced_len           21.035 ns       990x realtime
+        iir_c_style_for_loop                    21.035 ns       990x realtime
+        iir_unchecked_c_style_for_loop          21.035 ns       990x realtime
+
+Array (128)
+        iir_intoiterator_shared                 25.192 ns       827x realtime
+        iir_intoiterator_uniq_9                 21.029 ns       991x realtime
+        iir_intoiterator_enforced_len           21.036 ns       990x realtime
+        iir_c_style_for_loop                    21.029 ns       991x realtime
+        iir_unchecked_c_style_for_loop_shared   21.035 ns       990x realtime
+        iir_array_c_style_for_loop              21.029 ns       991x realtime
+
